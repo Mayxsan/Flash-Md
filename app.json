@@ -1,5 +1,5 @@
 {
-  "name":"FLASH-MD",
+  "name":"MAYX-MD🤖",
   "description":"An easy and simple WhatsApp bot developed by France King",
   "keywords":[
     "bot",
@@ -16,7 +16,7 @@
     "PREFIX":
     {
       "description":"insert a prefix for your bot, be it a letter, a number or a symbol",
-      "value":".",
+      "value":":",
       "required":true
     },
     "AUTO_READ_MESSAGES":
@@ -28,7 +28,7 @@
     "AUTO_VIEW_STATUS":
     {
       "description":"Your contact status will be read automatically(type on to activate this feature or type off to deactivate it ; don't write in capital letter)",
-      "value":"on",
+      "value":"false",
       "required":false
     }, "AUTO_SAVE_STATUS":
     {
@@ -40,8 +40,8 @@
      "PM_PERMIT" :
      {
       "description":"Other user can't use your bot in pm (type on to activate this feature or type off to deactivat it ; don't write in capital letter)",
-      "value":"off",
-      "required":false
+      "value":"true",
+      "required":true
     }
     ,
      "BOT_MENU_LINKS" : {
@@ -70,7 +70,7 @@
     "SESSION_ID":
     {
       "description":"put your session ID , make sure it starts with eyJub2I...",   
-      "value":"",
+      "value":"FLASH-MD-WA-BOT;;;=>eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiUUFZUEpMWStmbHk0UDg0c0g4bFpDQXVTNlRBNVlmeGF1ZWsrTGZ0cWtYaz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiLzFBMVdWLzRHZzNObmVVR2dVYWdwdnVYdm9rcVQwYThQUDIvaXVvTXhsST0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJnSm1VdE5WS0RJRXd5TmphL0svMldYQVRCQmIrajhacTE4ZU5wd3J4Tms0PSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJVaGNJRkduMGNFeTFsRGFidWxZRXNQbEZ6TEplMWNuLyt1bjRhSTYwYlY4PSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6Im1Ia2FRS2xRckJnajM1ejVVaVpRWC9sTldZeFhpZTk0VXQrZk1aSmdXbDQ9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IlRvZktqSFlQQ1l4LzFIYzhacEJDdStHK0xnbFhEY05SR1JiUGMwZWZJMUE9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiS01kUXVzdmZwcmp5c0tWaGtjWTk5cURnejdyTHRzN2RhV3JUVFprQUVXST0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoidUFtci82cjV2SUNBdTdHQnc4RlNIMTZOYmJSaVdkb3habkpzc1BFZjB3VT0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IlhteWNOYUpYb01jaklGN2k4MmpiUjhQVmVRQzgyYUl0S0kxRlQ2MlFsektJbHZGL3E1OHVRcGpSSitzaGtiaHZseDk5THhCZG5TQXh1dGw3a3NOeURRPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MjIyLCJhZHZTZWNyZXRLZXkiOiJsakRucU5QUU5XNFN0eHVUbWt3UmQ5SE1KbFljSUxaTkhLYkQxby9DMkRvPSIsInByb2Nlc3NlZEhpc3RvcnlNZXNzYWdlcyI6W10sIm5leHRQcmVLZXlJZCI6MzEsImZpcnN0VW51cGxvYWRlZFByZUtleUlkIjozMSwiYWNjb3VudFN5bmNDb3VudGVyIjowLCJhY2NvdW50U2V0dGluZ3MiOnsidW5hcmNoaXZlQ2hhdHMiOmZhbHNlfSwiZGV2aWNlSWQiOiJiemlpOTZLNlN1R01Manh0SHF3YkdBIiwicGhvbmVJZCI6IjhkYTAwZTUzLTYzMTQtNDdjNC05OWIwLTYwYTFlNTdkYWFhZiIsImlkZW50aXR5SWQiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJOYWRjYW5YanUzanJTZTFvcG0xZmZFOTdIcFk9In0sInJlZ2lzdGVyZWQiOnRydWUsImJhY2t1cFRva2VuIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoid3JGenZhZUhmcHAwVEJXL1ZtTG9kd3ZydklJPSJ9LCJyZWdpc3RyYXRpb24iOnt9LCJwYWlyaW5nQ29kZSI6IjFaR0hGVFZIIiwibWUiOnsiaWQiOiIyMzQ5MDE2NTk1ODI1OjE5QHMud2hhdHNhcHAubmV0IiwibmFtZSI6Ik1BWVhTQU4gVFYifSwiYWNjb3VudCI6eyJkZXRhaWxzIjoiQ01TTGxOY0ZFT0dNcjdRR0dBd2dBQ2dBIiwiYWNjb3VudFNpZ25hdHVyZUtleSI6IkdyRUZLaDlLZFYrdy94emphRXg3OVVuTDkvT1VpRzR4dVdwY2s5aVl4WDg9IiwiYWNjb3VudFNpZ25hdHVyZSI6IjVmU3V5aGNwaUs2Z3E1RG1hVHRiRUQreUsrZUVlQWZUQlV2OVNxc0JPNnptdk1XNG1iZGdVRW8wQTdpZkwvY21WWkF4MWtkYkZCU2lqZWNBOFZXbERBPT0iLCJkZXZpY2VTaWduYXR1cmUiOiJLNlJJekpUN1R3QmF5U2c0ZVRjRU5yNGRnVFZuSDBYYzNjbVQ0QWxWZVlWVEFFMEthUmd5bFdweGhMbGZSS3BLdVI4Z2pBWE1rakYvU05wVTdmQk1DUT09In0sInNpZ25hbElkZW50aXRpZXMiOlt7ImlkZW50aWZpZXIiOnsibmFtZSI6IjIzNDkwMTY1OTU4MjU6MTlAcy53aGF0c2FwcC5uZXQiLCJkZXZpY2VJZCI6MH0sImlkZW50aWZpZXJLZXkiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJCUnF4QlNvZlNuVmZzUDhjNDJoTWUvVkp5L2Z6bElodU1ibHFYSlBZbU1WLyJ9fV0sInBsYXRmb3JtIjoic21iYSIsImxhc3RBY2NvdW50U3luY1RpbWVzdGFtcCI6MTcyMDQzNjMzNX0=",
       "required": true
 
     },
@@ -79,14 +79,14 @@
 
     "desc": "Your Name",
     "required": false,
-    "value": "France King"
-  },
+    "value": "MAYXSAN TV💅🏾✨"
+    },
     "OWNER_NUMBER":
   {
 
     "desc": "Your number , dont put '+' and put you area code(exemple of togo '228')",
     "required":false,
-    "value": "254751284190"
+    "value": "2349016595825"
   },
     "WARN_COUNT":
   {
@@ -108,7 +108,7 @@
   },
   "PRESENCE":{
     "description":"Put online to indicate that you are ever online even if you are not. Put typing to indicate that you are currently typing a message. Put recording to indicate that you are currently recording an audio. Or leave the field blank to indicate your real state.",
-    "value":"",
+    "value":"recording",
     "required": false
   }  
   },
